@@ -1,0 +1,167 @@
+/* کل صفحه */
+html::-webkit-scrollbar {
+    width: 18px;              /* ضخامت اسکرول */
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: #f1f1f1;       /* رنگ زمینه */
+    border-radius: 8px;       /* گرد کردن گوشه‌ها */
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background-color: darkslategray; /* رنگ دسته اسکرول */
+    border-radius: 8px;       /* گرد کردن گوشه‌ها */
+    border: 3px solid #f1f1f1; /* فاصله و کنتراست */
+  }
+  
+  html::-webkit-scrollbar-thumb:hover {
+    background-color: #112020; /* رنگ هنگام هاور */
+  }
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: darkslateblue;
+    font-family: vazir;
+}
+/*header*/
+.img-logo{
+    width: 60px;
+    border-radius: 50px;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+    height: 30px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#header .nav-list{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.button-contact{
+    border-radius: 10px;
+    background-color: darkslateblue;
+    color: white;
+    padding: 5px 13px;
+
+}
+.button-contact:hover{
+    background-color:#0b0053 ;
+    }
+
+/*main*/
+
+#main-veb .veblag{
+    font-variation-settings: var(--font-dot-style), 'wght' 950;
+    color: #000000;
+    margin-right: 50px;
+    margin-top: 40px;
+    padding: 10px;
+    border: 1px solid #9af3a1;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #9af3a1;
+    
+}
+#main-veb .div-img1{
+    border: 2px solid #ffffff2c;
+    margin: 40px ;
+    border-radius: 20px;
+    background-color: #ffffff2c;
+    display: flex;
+    object-fit: contain;
+
+}
+
+
+#main-veb .img-veb1{
+    width: 400px;
+    border-radius: 25px;
+    padding: 5px;
+    object-fit: contain;
+}
+
+#main-veb .div-matn-img1{
+    margin: 10px;
+    padding: 10px;
+    line-height: 40px;
+    object-fit: contain;
+}
+
+#main-veb .div-matn-img1 .a-matn{
+    color: black;
+    border: 1px solid #9af3a1;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #9af3a1;
+}
+/*فوتر */
+
+footer{
+    background-color: white;
+}
+
+.footer{
+    display: flex;
+    margin-top: 50px;
+}
+
+.footer .darbare{
+    padding: 20px 20px;
+    width: 50%;
+}
+.footer .darbare .p-footer{
+    margin-top: 10px;
+    color: #838383;
+    line-height: 35px;
+}
+.footer .section-footer{
+    padding: 65px;
+    line-height: 35px;
+    
+}
+.namad-footer{
+    width: 200px;
+    padding-top: 50px;
+}
+.copy-write{
+    text-align: center;
+}
+
+.footer .div-twt{
+    margin-top: 100px;
+    
+}
+.footer .div-twt .a-twt{
+    padding: 15px;
+}
+
+.footer .div-twt .a-twt:hover{
+
+    color: rgb(34, 0, 255);
+}
+

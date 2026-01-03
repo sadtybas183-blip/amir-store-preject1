@@ -1,0 +1,176 @@
+html::-webkit-scrollbar{
+    width: 18px;
+    }
+    html::-webkit-scrollbar-track{
+        background-color: #f1f1f1;
+        border-radius: 8px;
+    }
+    html::-webkit-scrollbar-thumb{
+        background-color: darkslategray;
+        border-radius: 8px;
+        border: 3px solid #f1f1f1;
+    }
+    html::-webkit-scrollbar-thumb:hover{
+        background-color: #112020;
+    }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: vazir;
+    background-color: darkslateblue;
+}
+
+.img-logo{
+    border-radius: 50px;
+    width: 60px;
+}
+
+#header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+    height: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+ 
+#header .nav-list{
+    display: flex;
+    gap: 30px;
+
+}
+
+.button-contact{
+    border-radius: 10px;
+    background-color: darkslateblue;
+    color: white;
+    padding: 5px 13px;
+
+}
+.button-contact:hover{
+    background-color:#0b0053 ;
+    }
+
+
+/*استایل دادن به محصولات*/
+
+img{
+    width: 100%;
+    
+}
+
+
+.mahsolat{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px ;
+    justify-content: space-around;
+    margin: 80px 20px;
+    
+    
+}
+
+.mahsolat .section-mahsolat{
+    background-color: #ffffff2c;
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    color: white;
+    padding: 5px;   
+}
+
+
+
+.mahsolat .section-mahsolat .img-mahsolat{
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.matn-aks{
+    padding: 10px;
+}
+.mahsolat .section-mahsolat .sefaresh{
+    display: inline-block;
+    border: 2px solid darkslategray;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+.div-sefaresh-remat{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*فوتر */
+
+footer{
+    background-color: white;
+}
+
+.footer{
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.footer .darbare{
+    padding: 20px 20px;
+    width: 50%;
+}
+.footer .darbare .p-footer{
+    margin-top: 10px;
+    color: #838383;
+    line-height: 35px;
+}
+.footer .section-footer{
+    padding: 65px;
+    line-height: 35px;
+}
+.namad-footer{
+    width: 200px;
+    padding-top: 50px;
+}
+.copy-write{
+    text-align: center;
+}
+
+.footer .div-twt{
+    margin-top: 100px;
+    
+}
+.footer .div-twt .a-twt{
+    padding: 15px;
+}
+
+.footer .div-twt .a-twt:hover{
+
+    color: rgb(34, 0, 255);
+}
+
