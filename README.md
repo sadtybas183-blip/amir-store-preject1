@@ -1,3 +1,6 @@
 <div align='center' > 
-<img src="./a-w.png" width='350px' border-radius='50%'/>
+<img src="./a-w.png" width='350px'/>
+</div>
+<div> 
+<b color='blue'> Amir Web </b>
 </div>
