@@ -1,12 +1,10 @@
 <div align='center' > 
 <img src="./a-w.png" width='350px'/>
  <br>
- <br>
- <br>
  <h1> Amir web </h1>
  <br>
 </div>
-
+<br>
 <div> 
  <p align='center'> I am Amirali Saadati in the field of website (: </p>
 <h3 color='blue'> My programming languages:
