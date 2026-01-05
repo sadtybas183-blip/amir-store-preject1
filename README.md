@@ -1,5 +1,5 @@
 <article class="markdown-body entry-content container-lg" itemprop="text"><div align="center" dir="auto">
-  <a target="_blank" rel="noopener noreferrer" href="/soufi-learn/soufi-learn/blob/main/logo.png"><img src="/soufi-learn/soufi-learn/raw/main/logo.png" alt="soufilearn logo" width="200px" style="max-width: 100%;"></a>
+  <a target="_blank" rel="noopener noreferrer" href="/soufi-learn/soufi-learn/blob/main/logo.png"><img src="/soufi-learn/soufi-learn/raw/main/logo.png" alt="amirweb logo" width="200px" style="max-width: 100%;"></a>
 </div>
 <div align="center" dir="auto">
     <div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto">
