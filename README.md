@@ -4,5 +4,6 @@
 <div> 
 <b color='blue'> My programming languages
  </b>
-  <img src='https://skillicons.dev/icons?i=html,css,py,cpp'/>
+  
 </div>
+<img src='https://skillicons.dev/icons?i=html,css,py,cpp'/>
